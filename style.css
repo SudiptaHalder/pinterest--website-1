@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    /* border: 1px solid black; */
+    height:80vh;
+    width:100%;
+    background-color: #7F9F80;
+
+    
+}
+header nav{
+    padding:30px 50px 0px ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+nav ul li{
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 30px;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    color: #000;
+}
+.components{
+    display: flex;
+    justify-content: space-between;
+    padding:80px
+   
+}
+.components ul{
+        display: flex;
+        font-size: 12px;
+}
+.headline{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text{
+    text-align: center;
+    /* border: 1px solid black; */
+    width:50%;
+    margin-left: 30%;
+    margin-top: -50px;
+    
+}
+.text h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+.text h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    font-style: italic;
+    margin-right: 200px;
+}
+.text p{
+    width:50%;
+    text-align: left;
+    padding: 10px;
+    font-weight: 400;
+    margin-left: 200px;
+
+}
+.headline h3{
+    font-size: 60px;
+    margin-right: 80px;
+}
+
+
+#box{
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:bisque;
+    
+}
+
+
+#image{
+    height:500px;
+    width:450px;
+    margin-top: -400px;
+    padding-left: 20px;
+    z-index: 10;
+}
+
+#table{
+    height:170px;
+    width:50%;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-top: -50px;
+    padding: 40px 10px 10px ;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(2px);
+}
+#purchase{
+display: flex;
+justify-content: space-between;
+
+}
+
+ .item{
+    background-color: #fff;
+    height:50px;
+    width:30%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+ .item span{
+    font-size: 15px;
+    font-style: italic;
+    color:#FFC374;
+    
+}
+.price {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+.price span{
+    color:#FFC374;
+}
+.quantity{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 60px;
+}
+ .number{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fff;
+    height:25px;
+    width:15%;
+    word-spacing: 12px;
+    border: 2px solid black;
+    padding-left: 15px;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.buy h4{
+    font-size: 15px;
+    font-weight: 300;
+}
+.buy-box{
+    height:40px;
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 5px;
+    background-color: #F6995C;
+    border-radius: 5px;
+    box-shadow: 2px 4px 3px grey;
+}
+.buy-box h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.vr{
+    border-left: 1px solid black;
+    height: 30px;
+}
+.box-2{
+    height:140vh;
+    background-color: bisque;
+    width:100%;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top:100px;
+}
+.navigation ul{
+    list-style-type: none;
+    
+
+}
+.navigation ul li{
+    padding: 20px;
+    
+}
+.navigation ul li a{
+     text-decoration: none;
+     color:#000;
+}
+#navi {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 35%;
+
+}
+#text{
+    font-size: 200px;
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+    margin-top: -60px;
+}
+.cards{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    padding:10px;
+    margin-top: -100px;
+    z-index: 10;
+}
+
+
+.card{
+   /* border:1px solid black; */
+   height:400px;
+   width:200px;
+   
+   align-items: center;
+
+   
+}
+.card img{
+    height:200px;
+    width:200px;
+    z-index: 9;
+    
+}
+.shadow{
+    height:10px;
+    width:5px;
+    margin-top: -100px;
+    margin-left: 30px;
+    opacity: .5;
+    z-index: 8;
+    
+}
+.card h3{
+   font-size: 15px;
+   text-align: center;
+   padding: 20px;
+}
+.card h5{
+    text-align: center;
+}
